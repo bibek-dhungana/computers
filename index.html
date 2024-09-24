@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibek Computers - Custom Cybersecurity Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://vincentgarreau.com/particles.js/assets/_build/js/lib/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+    <style>
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body class="font-sans bg-gray-100">
+    <header class="bg-gray-900 text-white sticky top-0 rounded-b-lg">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold">Bibek Computers</div>
+            <div class="hidden md:flex space-x-4">
+                <a href="#home" class="hover:text-blue-400">Home</a>
+                <a href="#features" class="hover:text-blue-400">Features</a>
+                <a href="#about" class="hover:text-blue-400">About</a>
+                <a href="#contact" class="hover:text-blue-400">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="particles-js"></div>
+        <section id="home" class="bg-gray-900 text-white h-screen items-center justify-center flex">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold mb-4"> <i class="fas fa-shield-alt"></i> Custom Cybersecurity Solutions
+                </h1>
+                <p class="text-xl mb-8">Protecting your digital assets with cutting-edge technology</p>
+                <a href="#contact"
+                    class="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 transition duration-300">
+                    Contact Us
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">Our Solutions</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex flex-row space-x-2">
+                            <i class="text-xl text-red-500 fas fa-shield-alt"></i>
+                            <h3 class="text-xl font-semibold mb-4">Network Security</h3>
+                        </div>
+                        <p>Advanced firewalls and intrusion detection systems to protect your network.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex flex-row space-x-2">
+                            <i class="text-xl text-red-500 fas fa-lock"></i>
+
+                            <h3 class="text-xl font-semibold mb-4">Data Encryption</h3>
+                        </div>
+                        <p>State-of-the-art encryption techniques to secure your sensitive data.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+
+                        <div class="flex flex-row space-x-2">
+                            <i class="text-xl text-red-500 fas fa-magnifying-glass"></i>
+                            <h3 class="text-xl font-semibold mb-4">Threat Intelligence</h3>
+                        </div>
+                        <p>Real-time monitoring and analysis to detect and prevent cyber threats.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="flex flex-row items-center justify-between bg-gray-200 py-20">
+
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">
+                    <i class="fas fa-phone mr-2"></i>Contact Us</h2>
+                <form class="max-w-md mx-auto">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                        <input type="text" id="name" name="name"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                            required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                            required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                            required></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Send
+                        Message</button>
+                </form>
+            </div>
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">
+                    <i class="fas fa-user"></i>
+                    About Bibek Computers
+                </h2>
+                <p class="text-lg text-center max-w-2xl mx-auto">
+                    Bibek Computers is a leading provider of custom cybersecurity solutions. With years of experience
+                    and a team of expert professionals, we deliver cutting-edge products tailored to meet the unique
+                    security needs of businesses in the digital age.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Bibek Computers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
